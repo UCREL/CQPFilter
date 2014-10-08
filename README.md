@@ -10,7 +10,7 @@ The filtering process proceeds in two stages:
 
  1. `clean_smt.rb` processes a directory full of .smt files, parses the XML stack as output by CLAWS, and produces CWB-format .vrt files (with XML markup) in an output directory.  This makes the assumption that the input was once valid XML, but will try to repair what isn't.
 
- 2. `index_vrt.rb' constucts an index for CQBWeb, reading a directory full of .vrt files and summarising their properties at the file level.  To do this, it runs a series of feature extractors on the texts (these extractors process .vrt files to identify certain fields).
+ 2. `index_vrt.rb` constucts an index for CQBWeb, reading a directory full of .vrt files and summarising their properties at the file level.  To do this, it runs a series of feature extractors on the texts (these extractors process .vrt files to identify certain fields).
 
 
 Configuration
